@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import "./home.css";
+import "./Home.css";
 import heroImage from "../assets/hero-image.png";
 
-export default function home() {
+export default function Home() {
   const [showForm, setShowForm] = useState(false);
 
   const toggleForm = () => setShowForm(!showForm);
 
   return (
-    <div className="home">
+    <div className="Home">
       <div className="hero-section">
         <img
           src={heroImage}
