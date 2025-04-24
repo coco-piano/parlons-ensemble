@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./home.css";
 import heroImage from "../assets/hero-image.png";
 
-export default function Home() {
+export default function home() {
   const [showForm, setShowForm] = useState(false);
 
   const toggleForm = () => setShowForm(!showForm);
