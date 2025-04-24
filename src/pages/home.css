@@ -47,4 +47,53 @@
   .hero-text button:hover {
     background-color: #0056b3;
   }
+  .trial-form {
+    background: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trial-form label {
+    margin-top: 1rem;
+    font-weight: 500;
+  }
+  
+  .trial-form input,
+  .trial-form select {
+    margin-top: 0.3rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .trial-form button {
+    margin-top: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .trial-form button:hover {
+    background-color: #0056b3;
+  }
+  .trial-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
   
